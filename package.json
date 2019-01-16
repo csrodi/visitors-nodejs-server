@@ -1,0 +1,20 @@
+{
+  "name": "visitors-nodejs-server",
+  "version": "1.0.0",
+  "description": "REST API for the Visitors project, made with Node.js, MongoDB, Fastify and Swagger.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Rodriguez <cs.rodi@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.2.2",
+    "fastify": "^1.13.0",
+    "fastify-mongodb": "^0.9.1",
+    "fastify-swagger": "^0.15.3",
+    "mongoose": "^5.3.14",
+    "nodemon": "^1.18.7"
+  }
+}
