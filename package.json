@@ -12,6 +12,8 @@
   "dependencies": {
     "boom": "^7.2.2",
     "fastify": "^1.13.0",
+    "fastify-auth": "^0.3.0",
+    "fastify-basic-auth": "^0.3.1",
     "fastify-mongodb": "^0.9.1",
     "fastify-swagger": "^0.15.3",
     "mongoose": "^5.3.14",
