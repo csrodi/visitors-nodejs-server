@@ -26,7 +26,7 @@ const swagger = require('./config/swagger')
 fastify.register(require('fastify-swagger'), swagger.options)
 
 // Connect to DB
-mongoose.connect('mongodb://192.168.99.100/mycargarage')
+mongoose.connect('mongodb://192.168.99.100/visitors')
   .then(() => console.log('MongoDB connected...'))
   .catch(err => console.log(err))
 
