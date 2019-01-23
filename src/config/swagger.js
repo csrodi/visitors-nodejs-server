@@ -8,7 +8,7 @@ exports.options = {
       version: '1.0.0'
     },
     externalDocs: {
-      url: 'https://swagger.io',
+      url: 'https://github.com/csrodi/visitors-nodejs-server',
       description: 'Find more info here'
     },
     host: 'localhost',

@@ -8,12 +8,14 @@ const routes = [
   {
     method: 'GET',
     url: '/api/visitors',
-    handler: visitorController.getVisitors
+    handler: visitorController.getVisitors,
+    schema: documentation.getVisitorsSchema
   },
   {
     method: 'GET',
     url: '/api/visitors/:id',
-    handler: visitorController.getSingleVisitor
+    handler: visitorController.getSingleVisitor,
+    schema: documentation.getSingleVisitor
   },
   {
     method: 'POST',
@@ -24,12 +26,14 @@ const routes = [
   {
     method: 'PUT',
     url: '/api/visitors/:id',
-    handler: visitorController.updateVisitor
+    handler: visitorController.updateVisitor,
+    schema: documentation.updateVisitorSchema
   },
   {
     method: 'DELETE',
     url: '/api/visitors/:id',
-    handler: visitorController.deleteVisitor
+    handler: visitorController.deleteVisitor,
+    schema: documentation.deleteVisitorSchema
   }
 ]
 
